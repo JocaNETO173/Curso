@@ -1,0 +1,37 @@
+* {
+    background-color: #000;
+    color: #fff;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    font-size: 25px;
+    margin: 50px;
+}
+
+ol, ul {
+    font-size: 25px;
+}
+
+strong {
+    color: darkred
+}
+
+img {
+    width: 100%;
+}
+
+.dicas {
+    font-size: 30px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
