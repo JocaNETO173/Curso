@@ -1,8 +1,20 @@
+:root {
+    --branco-principal: #fff;
+    --cor-fundo: #000;
+}
+
 * {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
     background-color: #000;
-    color: #fff;
-    font-family: "Dancing Script", cursive;
+    color: var(--branco-principal);
+    font-family: 'Dancing Script';
     text-align: center;
+    font-size: 25px;
 }
 
 html {
@@ -11,7 +23,6 @@ html {
 }
 
 header {
-    font-size: 25px;
     margin: 50px;
 }
 
@@ -31,7 +42,14 @@ img {
     font-size: 30px;
 }
 
+button {
+    font-family: 'Dancing Script';
+    background-color: #000;
+    font-size: 25px;
+}
+
 a {
     font-weight: bold;
     text-decoration: none;
+    color: var(--branco-principal);
 }
