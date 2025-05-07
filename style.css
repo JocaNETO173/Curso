@@ -1,6 +1,7 @@
 :root {
     --branco-principal: #fff;
     --cor-fundo: #000;
+    --mentira: #b30909;
 }
 
 * {
@@ -31,7 +32,7 @@ ol, ul {
 }
 
 strong {
-    color: darkred
+    color: var(--mentira)
 }
 
 img {
@@ -40,6 +41,15 @@ img {
 
 .dicas {
     font-size: 30px;
+}
+
+.enigma {
+    font-weight: bolder;
+}
+
+.simples {
+    color: var(--mentira);
+    text-align: center;
 }
 
 button {
